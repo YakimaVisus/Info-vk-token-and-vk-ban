@@ -48,10 +48,6 @@ try:
     fr = requests.get(f"https://api.vk.com/method/friends.get?access_token={token}&v=5.103").json()["response"]["count"]
 except:
     fr = "None"
-try:
-    fr1 = requests.get(f"https://api.vk.com/method/friends.get?access_token={token}&v=5.103").json()["response"]["hints"]
-except:
-    fr1 = "None"
 log = (f''' Информация по Аккаунту:
 ---------------------------------
 |Фамилия Имя: {fa} {ln}
