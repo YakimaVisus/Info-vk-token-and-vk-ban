@@ -10,8 +10,7 @@
 Количество групп  
 Админ в группе  
 ##### Учтоновка:  
-> pip install requests  
-> pip install vk_api  
+> pip install requests   
 
 #### ban_vk.py: Баним стр через токен
 указываем токен и ждем  
